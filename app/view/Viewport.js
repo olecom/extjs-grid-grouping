@@ -1,14 +1,19 @@
-﻿Ext.define('App.view.Viewport', {
-    extend: 'Ext.container.Viewport',
-    requires: ['Ext.grid.Panel'],
-    style: 'padding:25px',
-    layout: 'vbox',
+﻿Ext.define('GridGrouping.view.Viewport', {
+    extend: App.view.Window,
+    id: 'GridGrouping.view',
+    title: 'Ext JS Grid Grouping Tutorial by <i>miamicoder.com</i>',
+    closeAction: 'hide',
+    width: 650,
+    height: 475,
+    //requires: ['Ext.grid.Panel'],
+    //style: 'padding:25px',
+    //layout: 'vbox',
     items: [
        {
            xtype: 'gridpanel',
-           width: 650,
-           height: 475,
-           title: 'Ext JS Grid Grouping',
+           //width: 650,
+           //height: 475,
+           //title: 'Ext JS Grid Grouping',
            store: 'ModelCars',
            columns: [
                 {

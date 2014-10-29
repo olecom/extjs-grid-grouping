@@ -1,4 +1,4 @@
-﻿Ext.define('App.model.ModelCar', {
+﻿Ext.define('GridGrouping.model.ModelCar', {
     extend: 'Ext.data.Model',
     fields: [
         { name: 'id', type: 'int' },

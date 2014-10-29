@@ -1,6 +1,6 @@
-﻿Ext.define('App.store.ModelCars', {
+﻿Ext.define('GridGrouping.store.ModelCars', {
     extend: 'Ext.data.Store',
-    model: 'App.model.ModelCar',
+    model: 'GridGrouping.model.ModelCar',
     groupField: 'category',
     groupDir: 'ASC',
     sorters: ['name'],
